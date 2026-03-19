@@ -8,6 +8,8 @@ import {
 } from "react-router";
 
 import type { Route } from "./+types/root";
+import { ReactQueryProvider } from "shared/lib/react-query";
+import { Toaster } from "shared/ui/components/sonner";
 import "./app.css";
 
 export const links: Route.LinksFunction = () => [
@@ -42,7 +44,12 @@ export function Layout({ children }: { children: React.ReactNode }) {
 }
 
 export default function App() {
-  return <Outlet />;
+  return (
+    <ReactQueryProvider>
+      <Outlet />
+      <Toaster position="top-center" />
+    </ReactQueryProvider>
+  );
 }
 
 export function ErrorBoundary({ error }: Route.ErrorBoundaryProps) {

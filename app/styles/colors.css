@@ -1,0 +1,19 @@
+@theme {
+  --color-gray-3: #b2b3b9;
+  --color-gray-2: #ececeb;
+  --color-gray-1: #ededed;
+  --color-gray-light: #e0e0e0;
+  --color-dark-blue: #515161;
+  --color-dark: #232323;
+  --color-black: #000000;
+  --color-text-black: #161919;
+  --color-red: #f11010;
+  --color-bg-page: #f9f9f9;
+  --color-bg-white: #ffffff;
+  --color-accent: #242edb;
+  --color-accent-light: #797fea;
+  --color-gray-dark: #6c6c6c;
+  --color-gray-bg: #f3f3f3;
+  --color-gray-icon: #999999;
+  --color-secondary: #3c538e;
+}

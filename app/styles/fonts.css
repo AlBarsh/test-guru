@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600;700&display=swap');
+
+.text-h1 {
+  @apply text-[40px]  leading-[1.1] tracking-[-1.5%];
+}
+
+.text-h3 {
+  @apply text-[24px]  tracking-[-0.25];
+}
+.text-h4 {
+  @apply text-[20px]  tracking-[-0.25];
+}
+.text-body-1 {
+  @apply text-[16px] lg:text-[18px] leading-[1.5]   tracking-[-1.5%];
+}
+.text-body-2 {
+  @apply text-[14px] lg:text-[16px];
+}
+.text-body-3 {
+  @apply text-[12px] lg:text-[14px]  leading-[18px] tracking-[-0.25];
+}
+.text-body-4 {
+  @apply text-[10px] lg:text-[12px]  leading-[15px] tracking-[-0.25];
+}
+
+.font-mono {
+  font-family: 'Roboto Mono', monospace;
+}
