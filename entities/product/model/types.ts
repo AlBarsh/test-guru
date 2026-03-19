@@ -10,8 +10,8 @@ export interface Product {
   category: string;
   thumbnail: string;
   images: string[];
-  sku?: string; // артикул
-  vendor?: string; // вендор
+  sku?: string;
+  vendor?: string;
 }
 
 export interface ProductsResponse {
@@ -27,4 +27,3 @@ export interface ProductFormData {
   vendor: string;
   sku: string;
 }
-

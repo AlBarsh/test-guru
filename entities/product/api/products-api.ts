@@ -46,7 +46,6 @@ export const productsApi = {
           return aValue.localeCompare(bValue);
         }
 
-        // Обработка числовых значений
         const aNum = Number(aValue);
         const bNum = Number(bValue);
 

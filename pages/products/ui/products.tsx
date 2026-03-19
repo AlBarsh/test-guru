@@ -42,7 +42,7 @@ export function ProductsPage() {
 
   const handlePageChange = (page: number) => {
     setCurrentPage(page);
-    setSelectedRows([]); // Сбрасываем выбор при смене страницы
+    setSelectedRows([]);
   };
 
   return (
