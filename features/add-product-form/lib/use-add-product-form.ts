@@ -1,6 +1,9 @@
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
-import { productFormSchema, type ProductFormData } from "../model/product-form-schema";
+import {
+  productFormSchema,
+  type ProductFormData,
+} from "../model/product-form-schema";
 import { toast } from "sonner";
 
 export function useAddProductForm(onSuccess?: () => void) {
@@ -16,7 +19,6 @@ export function useAddProductForm(onSuccess?: () => void) {
   });
 
   const onSubmit = async (data: ProductFormData) => {
-    // Логика сохранения через API не нужна, просто показываем успешное уведомление
     toast.success("Товар успешно добавлен!");
     form.reset();
     onSuccess?.();
@@ -27,4 +29,3 @@ export function useAddProductForm(onSuccess?: () => void) {
     onSubmit: form.handleSubmit(onSubmit),
   };
 }
-
