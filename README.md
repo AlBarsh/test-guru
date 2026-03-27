@@ -42,4 +42,8 @@ npm start
 
 API: `https://dummyjson.com`
 
-Любые учетные данные из [DummyJSON Users](https://dummyjson.com/users)
+Для авторизации используйте:
+- **Username:** `emilys`
+- **Password:** `emilyspass`
+
+Или любые другие учетные данные из [DummyJSON Users](https://dummyjson.com/users)
